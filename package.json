@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./index.js",
+    "start": "node ./bin/www",
+    "postbuild": "cp -r views netlify/functions/views && cp -r public netlify/functions/public",
     "devstart": "nodemon ./index.js"
   },
   "dependencies": {
