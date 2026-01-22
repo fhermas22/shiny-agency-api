@@ -8,8 +8,8 @@ It pairs with [the frontend repository](https://github.com/fhermas22/shiny-agenc
 
 To follow the course, you'll need to install the API locally on your machine. To do this:
 1. Clone with `git clone https://github.com/fhermas22/shiny-agency-api`
-2. Install `node_modules` with `yarn`
-3. Run the API with `yarn start`
+2. Install `node_modules` with `npm` or `yarn`
+3. Run the API with `npm start`
 
 
 ## Consuming the API
