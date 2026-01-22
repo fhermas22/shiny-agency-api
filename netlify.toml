@@ -1,6 +1,6 @@
 [build]
   command = "npm run postbuild" 
-  publish = "dist"
+  publish = "."
 
 [functions]
   external_node_modules = ["express", "pug", "debug", "http-errors", "cookie-parser", "morgan", "cors"]
