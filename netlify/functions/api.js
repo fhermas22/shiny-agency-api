@@ -1,7 +1,7 @@
 const serverless = require('serverless-http');
 const app = require('../../app.js');
 const path = require('path');
-const express = require('express');
+const express = require('express'); 
 
 const viewsPath = path.join(__dirname, 'views'); 
 const publicPath = path.join(__dirname, 'public');

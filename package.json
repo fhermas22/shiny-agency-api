@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "postbuild": "cp -r views netlify/functions/views && cp -r public netlify/functions/public",
     "devstart": "nodemon ./index.js"
   },
   "dependencies": {

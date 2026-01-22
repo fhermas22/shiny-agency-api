@@ -1,10 +1,17 @@
 [build]
-  command = "npm run postbuild" 
-  publish = "."
+  command = "echo 'No static build command needed, just functions'" 
+  publish = "." 
 
 [functions]
+  node_bundler = "nft"
+
+  included_files = [
+    "views/**",
+    "public/**"
+  ]
+  
   external_node_modules = ["express", "pug", "debug", "http-errors", "cookie-parser", "morgan", "cors"]
-  node_bundler = "esbuild"
+
 
 [[redirects]]
   from = "/*"
