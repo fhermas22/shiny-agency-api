@@ -1,35 +1,43 @@
-# OpenClassrooms - React intermédiaire
+# Shiny Agency - Intermediate React
 
-Ce repo contient le code de l'API dont vous aurez besoin pour le cours OpenClassrooms ------.
-Il va de paire avec [le repository de la partie frontend](https://github.com/OpenClassrooms-Student-Center/7150606-React-intermediaire.git).
-
-
-## Lancer l'API en local
-
-Pour suivre le cours, vous aurez besoin d'installer l'API en local sur votre machine. Pour cela :
-1. Faites un `git clone https://github.com/OpenClassrooms-Student-Center/7150606-API-React-intermediaire.git`
-2. Installez les `node_modules` avec `yarn`
-3. Faites tourner l'API avec `yarn start`
+This repository contains the API code you'll need for the OpenClassrooms course "Créez une application React complète".
+It pairs with [the frontend repository](https://github.com/fhermas22/shiny-agency).
 
 
-## Consommer l 'API
-L'API Shiny est une API REST. Si vous avez un doute sur ce qu'est une API REST, n'hésitez pas à jeter un oeil à l'excellent cours [Adoptez les API REST pour vos projets web. 
-](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web). 
-Une fois lancée, cette API met plusieurs routes à votre disposition :
+## Running the API locally
 
-- La route pour récupérer les profils des freelances :
+To follow the course, you'll need to install the API locally on your machine. To do this:
+1. Clone with `git clone https://github.com/fhermas22/shiny-agency-api`
+2. Install `node_modules` with `yarn`
+3. Run the API with `yarn start`
+
+
+## Consuming the API
+The Shiny API is a REST API. If you're unsure what a REST API is, feel free to check out the excellent course [Adopt REST APIs for your web projects](https://openclassrooms.com/fr/courses/6573181-adoptez-les-api-rest-pour-vos-projets-web).
+Once launched, this API provides you with several routes:
+
+- The route to retrieve freelancer profiles:
 `GET /freelances`
 
-- La route pour avoir le détail d'un profil de freelance :
+- The route to get details of a freelancer profile:
 `GET /profile/?id={id}`
 
-- La route pour avoir le questionnaire :
+- The route to get the questionnaire:
 `GET /survey/`
 
-- La route pour obtenir le résultat du questionnaire :
+- The route to get the questionnaire results:
 `GET /results/?a1={answer1}&a2={answer2}&a3={answer3}...`
 
 
-## Modifier l'API
+## Modifying the API
 
-N'hésitez pas à explorer l'API pour tester. Cette base de code a été initialisée avec [Express Generator](https://expressjs.com/fr/starter/generator.html).
+Feel free to explore the API for testing. This codebase was initialized with [Express Generator](https://expressjs.com/en/starter/generator.html).
+
+
+
+## Shiny Agency Resources
+- Github Repository : https://github.com/fhermas22/shiny-agency
+- Demo Link : https://fhermas22.github.io/shiny-agency
+
+#
+ Experiment by @fhermas22 for [Shiny Agency Project](https://fhermas22.github.io/shiny-agency)
